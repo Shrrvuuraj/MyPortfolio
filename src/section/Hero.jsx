@@ -3,7 +3,7 @@ import Herotext from "../components/Herotext";
 import Parralax from "../components/Parralax";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Astronout } from "../components/Astronout";
-import { Float, OrbitControls } from "@react-three/drei";
+import { Float} from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import Loader from "../components/Loader";
