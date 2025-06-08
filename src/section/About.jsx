@@ -1,6 +1,8 @@
 import React from "react";
 import Cart from "../components/Cart";
 import { useRef } from "react";
+import { Globe } from "../components/Globe";
+import { figure } from "motion/react-client";
 
 const About = () => {
   const grid2container = useRef();
@@ -78,7 +80,15 @@ const About = () => {
           </div>
         </div>
         {/* grid3 */}
-        <div className=" grid-black-color grid-3"></div>
+        <div className=" grid-black-color grid-3">
+          <div className="z-10 w-[50%]">
+            <p className="headtext">I am Shravan</p>
+            <p className="subtext">I am Based on india, open for remote work</p>
+            <figure className="absolute left-[30%] top-[10%]">
+              <Globe className="" />
+            </figure>
+          </div>
+        </div>
         {/* grid4 */}
         <div className=" grid-special-color grid-4"></div>
         {/* grid5 */}
