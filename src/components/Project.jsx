@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import temp from "./temp";
+import Temp from "./temp";
 
 const Project = ({
   title,
@@ -11,11 +11,15 @@ const Project = ({
   setPreview,
 }) => {
   const [isHidden, setIsHidden] = useState(false);
+
+  const handlePreview = () => setPreview(image);
+
   return (
     <>
       <div
         className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
-        onMouseEnter={() => setPreview(image)}
+        onMouseEnter={handlePreview}
+        onTouchStart={handlePreview}
         onMouseLeave={() => setPreview(null)}
       >
         <div>
@@ -36,7 +40,7 @@ const Project = ({
       </div>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
       {isHidden && (
-        <temp
+        <Temp
           title={title}
           description={description}
           subDescription={subDescription}
