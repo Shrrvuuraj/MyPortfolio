@@ -1,5 +1,5 @@
 import About from "./section/About"
-import Hero from "./section/hero"
+import Hero from "./section/Hero"
 import Navbar from "./section/Navbar"
 
 
