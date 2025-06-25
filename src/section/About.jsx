@@ -3,6 +3,8 @@ import Cart from "../components/Cart";
 import { useRef } from "react";
 import { Globe } from "../components/Globe";
 import { figure } from "motion/react-client";
+import CopyEmail from "../components/CopyEmail";
+import FrameWrok from "../components/FrameWrok";
 
 const About = () => {
   const grid2container = useRef();
@@ -90,9 +92,18 @@ const About = () => {
           </div>
         </div>
         {/* grid4 */}
-        <div className=" grid-special-color grid-4"></div>
+        <div className=" grid-special-color grid-4">
+          <div className="flex flex-col items-center justify-center size-full gap-4">
+            <p className="text-center headtext ">
+              Do You Want To Start A Project Together
+            </p>
+            <CopyEmail />
+          </div>
+        </div>
         {/* grid5 */}
-        <div className=" grid-default-color grid-5"></div>
+        <div className=" grid-default-color grid-5">
+          <div className="absolute inset-y-0 md:insety-9  w-full h-full md:scale-125"><FrameWrok className="w-10"/></div>
+        </div>
       </div>
     </section>
   );
