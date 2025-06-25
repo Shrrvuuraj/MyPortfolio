@@ -1,17 +1,28 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Project from "../components/Project";
-import {myProjects} from "../constant/index"
+import { myProjects } from "../constant/index";
 import { motion, useMotionValue, useSpring } from "motion/react";
+
 const Projects = () => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const springX = useSpring(x, { damping: 10, stiffness: 50 });
   const springY = useSpring(y, { damping: 10, stiffness: 50 });
+
+  const [preview, setPreview] = useState(null);
+
   const handleMouseMove = (e) => {
     x.set(e.clientX + 20);
     y.set(e.clientY + 20);
   };
-  const [preview, setPreview] = useState(null);
+
+  useEffect(() => {
+    if (preview) {
+      const timeout = setTimeout(() => setPreview(null), 5000);
+      return () => clearTimeout(timeout);
+    }
+  }, [preview]);
+
   return (
     <section
       onMouseMove={handleMouseMove}
