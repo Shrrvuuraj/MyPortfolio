@@ -43,7 +43,7 @@ const Navbar = () => {
           >
             <img
               src={
-                isOpen? "../../public/assets/close.svg" : "../../public/assets/menu.svg"
+                isOpen? "assets/close.svg" : "assets/menu.svg"
               }
               alt="toggle"
               className="w-6 h-6"
