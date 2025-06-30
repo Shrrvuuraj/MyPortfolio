@@ -27,7 +27,7 @@ const Contact = () => {
       >
         Email Me
       </a>
-      <a href='mailto:piotr@mailtrap.io' target='_blank' rel='noopener noreferrer'>I want free Bitcoins</a>
+      <a href='sms:+911234567890?body=Hi%20there' target='_blank' rel='noopener noreferrer'>I want free Bitcoins</a>
     </section>
   );
 };
