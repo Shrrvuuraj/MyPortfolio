@@ -1,4 +1,5 @@
 import About from "./section/About";
+import Contact from "./section/Contact";
 import Experiences from "./section/Experiences";
 
 import Hero from "./section/Hero";
@@ -15,6 +16,8 @@ const App = () => {
       {/* <Projects /> */}
       {/* <Experiences /> */}
       {/* <Testimonial /> <section className="min-h-screen"></section> */}
+      <Contact/>
+      
     
     </div>
   );
