@@ -14,15 +14,8 @@ const App = () => {
       <About />
       <Projects />
       <Experiences />
-      <Testimonial /> <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
-      <section className="min-h-screen"></section>
+      {/* <Testimonial /> <section className="min-h-screen"></section> */}
+    
     </div>
   );
 };
