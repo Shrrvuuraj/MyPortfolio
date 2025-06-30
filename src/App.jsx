@@ -13,7 +13,7 @@ const App = () => {
       <Hero />
       <About />
       <Projects />
-      <Experiences />
+      {/* <Experiences /> */}
       {/* <Testimonial /> <section className="min-h-screen"></section> */}
     
     </div>
