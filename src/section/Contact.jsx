@@ -10,6 +10,8 @@ const Contact = () => {
       </h2>
       
       {/* Responsive contact cards container */}
+
+      {/*  use my contacts later  */}
       <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8 md:gap-12 flex-wrap">
         <ContactDesign
           href="https://api.whatsapp.com/send/?phone=918595219941&text=Hi+there!"

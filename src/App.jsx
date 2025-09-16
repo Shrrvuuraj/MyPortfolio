@@ -13,9 +13,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      {/* <Projects /> */}
-      {/* <Experiences /> */}
-      {/* <Testimonial /> <section className="min-h-screen"></section> */}
+      <Projects />
+      <Experiences />
+      <Testimonial /> <section className="min-h-screen"></section>
       <Contact/>
       
     
