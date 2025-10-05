@@ -10,7 +10,7 @@ function Navigation() {
         Home
       </a>
      
-      <a href="<contact.jsx/>" className="nav-link">
+      <a href="#contact" className="nav-link">
         Contact
       </a>
     </li>
