@@ -9,13 +9,8 @@ function Navigation() {
       <a href="#home" className="nav-link">
         Home
       </a>
-      <a href="#about" className="nav-link">
-        About
-      </a>
-      <a href="#work" className="nav-link">
-        Work
-      </a>
-      <a href="#contact" className="nav-link">
+     
+      <a href="<contact.jsx/>" className="nav-link">
         Contact
       </a>
     </li>
