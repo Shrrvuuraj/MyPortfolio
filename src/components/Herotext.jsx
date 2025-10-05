@@ -66,7 +66,7 @@ const Herotext = () => {
           transition={{ delay: 1 }}
           className="text-4xl font-medium "
         >
-          Hi I'm Shrrvvuu
+          Hi I'm Shravan
         </motion.p>
         <motion.p className="text-5xl text-neutral-500 font-black" variants={variants}
           initial="hidden"
