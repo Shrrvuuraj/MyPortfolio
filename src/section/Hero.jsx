@@ -11,7 +11,7 @@ import Loader from "../components/Loader";
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
-    <section id=" home" className="flex items-start justify-start md:items-center md:justify-center min-h-screen overflow-hidden c-space">
+    <section id="home" className="flex items-start justify-start md:items-center md:justify-center min-h-screen overflow-hidden c-space">
       <Herotext />
       <Parralax />
       <figure
