@@ -8,6 +8,8 @@ function Navigation() {
     <li className="nav-li">
       <a href="#home" className="nav-link">
         Home
+      </a>      <a href="#about" className="nav-link">
+        About Me
       </a>
      
       <a href="#contact" className="nav-link">
