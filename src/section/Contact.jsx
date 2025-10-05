@@ -3,7 +3,7 @@ import ContactDesign from "../components/ContactDesign";
 
 const Contact = () => {
   return (
-    <section className="min-h-screen py-12 px-4 sm:px-8 md:px-20 lg:px-32 flex flex-col items-center justify-center">
+    <section className=" contact min-h-screen py-12 px-4 sm:px-8 md:px-20 lg:px-32 flex flex-col items-center justify-center">
       {/* Responsive gradient text heading */}
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-500 via-pink-500 to-rose-500 bg-clip-text text-transparent mb-8 md:mb-12 text-center">
         Get In Touch
